@@ -6,6 +6,7 @@
   "author": "Daniel Lee <daniel.lee@asos.com>",
   "license": "MIT",
   "scripts": {
+    "createElement": "open ./tutorials/01-createElement/index.html",
     "JSX": "webpack-dev-server --open --config ./tutorials/02-JSX/webpack.config.js",
     "properties": "webpack-dev-server --open --config ./tutorials/03-properties/webpack.config.js",
     "components": "webpack-dev-server --open --config ./tutorials/04-components/webpack.config.js",
