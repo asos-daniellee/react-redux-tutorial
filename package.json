@@ -1,0 +1,44 @@
+{
+  "name": "react-redux-tutorial",
+  "version": "1.0.0",
+  "description": "Tutorials to get started with React and Redux",
+  "main": "index.js",
+  "author": "Daniel Lee <daniel.lee@asos.com>",
+  "license": "MIT",
+  "scripts": {
+    "JSX": "webpack-dev-server --open --config ./tutorials/02-JSX/webpack.config.js",
+    "properties": "webpack-dev-server --open --config ./tutorials/03-properties/webpack.config.js",
+    "components": "webpack-dev-server --open --config ./tutorials/04-components/webpack.config.js",
+    "state": "webpack-dev-server --open --config ./tutorials/05-state/webpack.config.js",
+    "lifecycle": "webpack-dev-server --open --config ./tutorials/06-lifecycle/webpack.config.js",
+    "lists": "webpack-dev-server --open --config ./tutorials/07-lists/webpack.config.js",
+    "children": "webpack-dev-server --open --config ./tutorials/08-children/webpack.config.js",
+    "forms": "webpack-dev-server --open --config ./tutorials/09-forms/webpack.config.js",
+    "enzyme": "jest ./tutorials/10-enzyme",
+    "multiple": "webpack-dev-server --open --config ./tutorials/11-multiple-components/webpack.config.js",
+    "redux": "webpack-dev-server --open --config ./tutorials/12-redux/webpack.config.js"
+  },
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^7.0.0-bridge",
+    "babel-jest": "^23.6.0",
+    "babel-loader": "^8.0.2",
+    "enzyme": "^3.6.0",
+    "enzyme-adapter-react-16": "^1.5.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^23.6.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.9"
+  }
+}

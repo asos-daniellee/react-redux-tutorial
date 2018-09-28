@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>React.createElement</title>
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+</head>
+<body>
+
+    <div id="react-root"></div>
+
+    <script type="text/javascript">
+      const reactApp = React.createElement(
+                            "div",
+                            { className: "my-react-app" },
+                            React.createElement(
+                                "h1",
+                                null,
+                                "Hello World!"
+                            )
+                       );
+      const reactRoot = document.getElementById("react-root");
+      ReactDOM.render(reactApp, reactRoot);
+    </script>
+</body>
+</html>
