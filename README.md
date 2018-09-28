@@ -74,3 +74,16 @@ yarn multiple
 ```
 yarn redux
 ``` 
+
+## Useful Links and Extra Reading
+
+* [React Docs](https://reactjs.org/docs/hello-world.html)
+* [Redux Docs](https://redux.js.org/introduction)
+* [React Component Overview](https://reactjs.org/docs/react-component.html)
+* [Detailed explaination of JSX](https://reactjs.org/docs/introducing-jsx.html)
+* [JSX to JS converter](https://babeljs.io/repl/?presets=react)
+* [Importance of Keys in React Lists](https://reactjs.org/docs/reconciliation.html#recursing-on-children)
+* [React Dev Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
+* [Comparison of React, Angular, and VueJS](https://medium.com/unicorn-supplies/angular-vs-react-vs-vue-a-2017-comparison-c5c52d620176)
+* [Cheat Sheets](http://www.developer-cheatsheets.com/)
+
